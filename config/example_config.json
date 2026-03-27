@@ -1,0 +1,8 @@
+{
+  "cloud": {"port": 9000},
+  "nodes": [
+    {"id": "node-a", "supports": ["INT8", "FP16"]},
+    {"id": "node-b", "supports": ["INT8"]}
+  ],
+  "simulation": {"devices": 50, "duration_seconds": 20}
+}
