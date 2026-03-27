@@ -1,0 +1,16 @@
+{
+  "cloud": {
+    "listen_port": 9000,
+    "device_timeout_sec": 12,
+    "node_timeout_sec": 10
+  },
+  "scheduler": {
+    "max_retry": 2,
+    "realtime_prefer_model": "INT8",
+    "high_precision_prefer_model": "FP16"
+  },
+  "simulator": {
+    "default_devices": 20,
+    "submit_interval_ms": 500
+  }
+}
